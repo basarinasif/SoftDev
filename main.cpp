@@ -22,7 +22,7 @@ struct CONNECTION
 {
     const char *SERVER = "localhost";
     const char *USER = "root";
-    const char *PASSWORD = "singular";
+    const char *PASSWORD = "pass123";
     const char *DATABASE = "karaoke";
 };
 
@@ -314,74 +314,11 @@ int main()
             break;
             
         }
-        
-        
+        s
         cin.clear(); 
         cin.ignore(10000, '\n');
 
     } while (true);
-		
-        
-	
-	
-	
-	
-	
-	
-	//////////////////
-    
-
-//	bool ProgramsOpened = true;
-//	int answer;
-//	
-//	
-//	
-//	cout << "log in." <<endl <<endl;
-//	while(ProgramsOpened){
-//		cout<< "Name: ";
-//		cin.getline(data.NAME, 42, '\n');
-//				
-//		cout<< "Address: ";
-//		cin.getline(data.ADDRESS, 255, '\n');
-//				
-//		cout<< "Contact: ";
-//		cin >> data.CONTACT;
-//		cin.ignore(100, '\n');
-//		
-//		cout<< "Email: ";
-//		cin.getline(data.EMAIL, 42, '\n');
-//		
-//		cout<< "Purpose: ";
-//		cin.getline(data.RENT_PURPOSE, 255, '\n');
-//		
-//		cout << "Rent Date: ";
-//		cin.getline(data.DATE, 21, '\n');
-//		
-//		cout << "Rent Time: ";
-//		cin.getline(data.TIME, 21, '\n');
-//		
-//		cout << "Duration: ";
-//		cin.getline(data.DURATION, 255, '\n');
-//		
-//		cout << "Transaction: ";
-//		cin.getline(data.TRANSACTION, 21, '\n');
-//		
-//		cout << "Total Cost: ";
-//		cin >> data.COST;
-//		cin.ignore(100, '\n');
-//		
-//		
-//		
-//		cout<< endl << "Another?" << endl;
-//				cout << "[1] Yes" << "\n" << "[0] No"<<endl;
-//				cout << "Answer: ";
-//				cin>>answer;
-//				cin.ignore(100, '\n');
-//				if(answer == 0){
-//					break;
-//				}
-//
-//	}
     
 
     return 0;
